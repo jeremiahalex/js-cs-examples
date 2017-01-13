@@ -69,9 +69,12 @@ IntSet.prototype.intersect = function (set2) {
   return newSet
 }
 // TODO.
-// difference: s1 - s2
+// difference: s1 - s2 / or complement
 // equals: are two sets equal
 // subset: A set A is said to be a subset of B if and only if every element of A is also an element of B.
+// cardinality
+// disjointed
+
 
 // Tests
 var setA = new IntSet()
