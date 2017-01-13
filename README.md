@@ -6,3 +6,5 @@ A collection of example solutions for warmup challenges on Computer Science conc
 - Queue
 - Deque
 - Set(Integers)
+- LinkedList
+- BinaryTree
