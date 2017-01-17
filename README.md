@@ -8,3 +8,4 @@ A collection of example solutions for warmup challenges on Computer Science conc
 - Set(Integers)
 - LinkedList
 - BinaryTree
+- SelectionSort
