@@ -12,6 +12,7 @@ Array.prototype.insertionSort = function () {
       arr[j - 1] = temp
       --j
     }
+  }
   console.timeEnd('InsertionSort')
 }
 
@@ -24,5 +25,5 @@ console.log('sorting array on length: ', max)
 // console.log('unsorted array: ', arr)
 arr.insertionSort()
 // console.log('sorted array: ', arr)
-console.log('restorting array...')
+// console.log('restorting array...')
 arr.insertionSort()
