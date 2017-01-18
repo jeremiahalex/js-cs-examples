@@ -12,22 +12,6 @@ Array.prototype.insertionSort = function () {
       arr[j - 1] = temp
       --j
     }
-  // let minValue = arr[i]
-  // let minIndex = i
-  // // find the minimum value in the remainder of the array
-  // for (let j = i + 1; j < arr.length; ++j) {
-  //   if (arr[j] < minValue) {
-  //     minValue = arr[j]
-  //     minIndex = j
-  //   }
-  // }
-  // // swap values if not the same
-  // if (i !== minIndex) {
-  //   let temp = arr[i]
-  //   arr[i] = arr[minIndex]
-  //   arr[minIndex] = temp
-  // }
-  }
   console.timeEnd('InsertionSort')
 }
 
