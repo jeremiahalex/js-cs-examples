@@ -17,11 +17,11 @@ Array.prototype.insertionSort = function () {
 }
 
 let arr = []
-let max = 10000
+let max = 100000
 for (let i = 0; i < max; ++i) {
   arr.push(Math.round(Math.random() * 10))
 }
-console.log('sorting array on length: ', max)
+console.log('sorting array of length: ', max)
 // console.log('unsorted array: ', arr)
 arr.insertionSort()
 // console.log('sorted array: ', arr)
