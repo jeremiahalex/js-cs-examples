@@ -49,7 +49,7 @@ Array.prototype.mergeSort = function () {
 }
 
 let arr = []
-let max = 10000000
+let max = 100000
 for (let i = 0; i < max; ++i) {
   arr.push(Math.round(Math.random() * 10))
 }
